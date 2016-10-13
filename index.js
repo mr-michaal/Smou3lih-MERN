@@ -21,6 +21,6 @@ if (process.env.NODE_ENV === 'production') {
     ]
   });
   require('babel-polyfill');
-
+  console.log('Requering Server!');
   require('./server/server');
 }
